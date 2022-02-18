@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529D5B3727BF554D00308E23 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D5B3627BF554D00308E23 /* ModalView.swift */; };
 		52A38B6C27BF5115005E16B9 /* GitTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A38B6B27BF5115005E16B9 /* GitTestApp.swift */; };
 		52A38B6E27BF5115005E16B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A38B6D27BF5115005E16B9 /* ContentView.swift */; };
 		52A38B7027BF5117005E16B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A38B6F27BF5117005E16B9 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		529D5B3627BF554D00308E23 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		52A38B6827BF5115005E16B9 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A38B6B27BF5115005E16B9 /* GitTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestApp.swift; sourceTree = "<group>"; };
 		52A38B6D27BF5115005E16B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				52A38B6F27BF5117005E16B9 /* Assets.xcassets */,
 				52A38B7427BF5117005E16B9 /* Info.plist */,
 				52A38B7127BF5117005E16B9 /* Preview Content */,
+				529D5B3627BF554D00308E23 /* ModalView.swift */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529D5B3727BF554D00308E23 /* ModalView.swift in Sources */,
 				52A38B6E27BF5115005E16B9 /* ContentView.swift in Sources */,
 				52A38B6C27BF5115005E16B9 /* GitTestApp.swift in Sources */,
 			);
