@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             Button("Show modal") {
                 self.isPresented = true
-            }
+            }.foregroundColor(.red)
             .sheet(isPresented: $isPresented) {
                 ModalView()
             }
